@@ -1,0 +1,5 @@
+[2022-04-26 01:29:19] [1] [INFO] TEST [qa-ultimate - openHomeTest] STARTED at [10:29:19 2022-04-26]
+[2022-04-26 01:29:29] [30] [INFO] INFO: opening url 'https://ultimateqa.com/automation/'
+[2022-04-26 01:29:31] [30] [INFO] URL 'https://ultimateqa.com/automation/' opened
+[2022-04-26 01:29:36] [1] [INFO] PASS: element 'By.linkText: Big page with many elements' is clicked.
+[2022-04-26 01:29:37] [1] [INFO] TEST [qa-ultimate - openHomeTest] PASSED at [10:29:37 2022-04-26]

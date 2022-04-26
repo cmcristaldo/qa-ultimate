@@ -1,6 +1,6 @@
-[2022-04-22 09:49:02] [1] [INFO] 
+[2022-04-26 01:28:26] [1] [INFO] 
 ============= Test configuration =============
-url=https://www.gsmarena.com
+url=https://ultimateqa.com/automation/
 env=DEMO
 selenium_url=http://localhost:4444/wd/hub
 max_driver_count=3
@@ -37,8 +37,10 @@ selenium_url=http://localhost:4444/wd/hub
 capabilities.browserName=chrome
 ================================================
 
-[2022-04-22 09:49:04] [1] [INFO] Reflections took 337 ms to scan 8 urls, producing 2379 keys and 11612 values 
-[2022-04-22 09:49:04] [1] [INFO] There are no any rules and limitations
-[2022-04-22 09:49:05] [1] [INFO] Set thread-count=1
-[2022-04-22 09:49:05] [1] [INFO] Set data-provider-thread-count=1
-[2022-04-22 09:49:06] [1] [INFO] CARINA_CORE_VERSION: 7.3.18
+[2022-04-26 01:28:27] [1] [INFO] Reflections took 374 ms to scan 8 urls, producing 2377 keys and 11594 values 
+[2022-04-26 01:28:27] [1] [INFO] There are no any rules and limitations
+[2022-04-26 01:28:28] [1] [INFO] Set thread-count=1
+[2022-04-26 01:28:28] [1] [INFO] Set data-provider-thread-count=1
+[2022-04-26 01:28:29] [1] [INFO] CARINA_CORE_VERSION: 7.3.18
+[2022-04-26 01:28:31] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2022-04-26 01:28:31] [1] [INFO] RESULT #1: TEST [qa-ultimate - openHomeTest] FAIL [log=file:///Users/ccristaldo/Documents/Solvd/qa-ultimate/./reports/1650979706138/2750cc16-1998-4477-931c-963b679d6c88/test.log]
