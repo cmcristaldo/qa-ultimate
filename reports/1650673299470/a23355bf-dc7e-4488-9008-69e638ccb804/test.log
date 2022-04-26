@@ -1,0 +1,48 @@
+[2022-04-23 12:21:43] [1] [INFO] TEST [Project0 - testCompareModels] STARTED at [21:21:43 2022-04-22]
+[2022-04-23 12:21:51] [31] [INFO] INFO: opening url 'https://www.gsmarena.com'
+[2022-04-23 12:21:56] [31] [INFO] URL 'https://www.gsmarena.com' opened
+[2022-04-23 12:22:12] [1] [INFO] PASS: element 'compareLink' is clicked.
+[2022-04-23 12:22:16] [1] [INFO] PASS: element 'inputField' is clicked.
+[2022-04-23 12:22:24] [1] [INFO] PASS: keys cleared in element 'inputField'.
+[2022-04-23 12:22:28] [1] [INFO] PASS: keys 'Samsung Galaxy J3' are sent to element 'inputField'.
+[2022-04-23 12:22:36] [1] [INFO] PASS: element 'autocompleteSearchElements0' is clicked.
+[2022-04-23 12:22:41] [1] [INFO] PASS: element 'inputField' is clicked.
+[2022-04-23 12:22:44] [1] [INFO] PASS: keys cleared in element 'inputField'.
+[2022-04-23 12:22:49] [1] [INFO] PASS: keys 'Samsung Galaxy J5' are sent to element 'inputField'.
+[2022-04-23 12:22:57] [1] [INFO] PASS: element 'autocompleteSearchElements0' is clicked.
+[2022-04-23 12:23:02] [1] [INFO] PASS: element 'inputField' is clicked.
+[2022-04-23 12:23:06] [1] [INFO] PASS: keys cleared in element 'inputField'.
+[2022-04-23 12:23:12] [1] [INFO] PASS: keys 'Samsung Galaxy J7 Pro' are sent to element 'inputField'.
+[2022-04-23 12:23:18] [1] [INFO] PASS: element 'autocompleteSearchElements0' is clicked.
+[2022-04-23 12:23:29] [1] [ERROR] TEST [Project0 - testCompareModels] FAILED at [21:23:29 2022-04-22] - The following asserts failed:
+	expected [2016, March 31] but found [2016, March 31. Released 2016, May 06],
+	expected [2015, June 19] but found [2015, June 19. Released 2015, July 28]
+
+org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+com.example.carina.demo.WebSampleTest.testCompareModels(WebSampleTest.java:88)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+java.base/java.lang.reflect.Method.invoke(Method.java:577)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+org.testng.TestRunner.privateRun(TestRunner.java:794)
+org.testng.TestRunner.run(TestRunner.java:596)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+org.testng.SuiteRunner.run(SuiteRunner.java:276)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+org.testng.TestNG.runSuites(TestNG.java:1063)
+org.testng.TestNG.run(TestNG.java:1031)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
